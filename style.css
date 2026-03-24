@@ -171,6 +171,27 @@ img {
   color: black;
 }
 
+.buttononekash {
+  position: relative;
+  font-family: 'Ubuntu';
+  background-color: #7c5cff;
+  color: white;
+  border-color: none;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 450px;
+  cursor: pointer;
+}
+
+.buttononekash:hover {
+  background-color: #9b80ff;
+  color: white;
+}
+
 .footer {
    font-family: 'Ubuntu';
    bottom: 0;
