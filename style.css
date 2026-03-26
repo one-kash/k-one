@@ -29,9 +29,9 @@ img {
 .button {
   position: relative;
   font-family: 'Ubuntu';
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: transparent; 
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-color: white;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -40,14 +40,14 @@ img {
   border-radius: 10px;
   width: 450px;
   cursor: pointer;
-  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button:hover {
-  border-color: rgba(255, 255, 255, 0.15);
+  background-color: #FAF9F6;
+  color: black;
   transform: translateY(-4px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  color: white;
 }
 
 .button2 {
@@ -64,13 +64,14 @@ img {
   border-radius: 10px;
   width: 550px;
   cursor: pointer;
-  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button2:hover {
+  background-color: #FAF9F6;
+  color: black;
   transform: translateY(-4px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  color: white;
 }
 
 .button3 {
@@ -78,7 +79,7 @@ img {
   font-family: 'Ubuntu';
   background-color: #174e5b; 
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-color: none;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -87,14 +88,14 @@ img {
   border-radius: 10px;
   width: 450px;
   cursor: pointer;
-  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button3:hover {
-  border-color: rgba(255, 255, 255, 0.15);
+  background-color: #FAF9F6;
+  color: black;
   transform: translateY(-4px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  color: white;
 }
 
 .button4 {
@@ -102,7 +103,7 @@ img {
   font-family: 'Ubuntu';
   background-color:  #bd2d0f; 
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-color: none;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -111,14 +112,14 @@ img {
   border-radius: 10px;
   width: 450px;
   cursor: pointer;
-  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button4:hover {
-  border-color: rgba(255, 255, 255, 0.15);
+  background-color: #FAF9F6;
+  color: black;
   transform: translateY(-4px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  color: white;
 }
 
 
@@ -127,7 +128,7 @@ img {
   font-family: 'Ubuntu';
   background-color: #0077b5; 
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-color: none;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -136,14 +137,14 @@ img {
   border-radius: 10px;
   width: 450px;
   cursor: pointer;
-  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button5:hover {
-  border-color: rgba(255, 255, 255, 0.15);
+  background-color: #FAF9F6;
+  color: black;
   transform: translateY(-4px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  color: white;
 }
 
 
@@ -152,7 +153,7 @@ img {
   font-family: 'Ubuntu';
   background-color: #ec5800; 
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-color: none;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -161,14 +162,14 @@ img {
   border-radius: 10px;
   width: 450px;
   cursor: pointer;
-  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .buttonbook:hover {
-  border-color: rgba(255, 255, 255, 0.15);
+  background-color: #ff7e00;
+  color: black;
   transform: translateY(-4px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  color: white;
 }
 
 .buttonlabs {
@@ -176,7 +177,7 @@ img {
   font-family: 'Ubuntu';
   background-color: #2ea44f;
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-color: none;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -185,14 +186,14 @@ img {
   border-radius: 10px;
   width: 450px;
   cursor: pointer;
-  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .buttonlabs:hover {
-  border-color: rgba(255, 255, 255, 0.15);
+  background-color: #FAF9F6;
+  color: black;
   transform: translateY(-4px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  color: white;
 }
 
 .buttononekash {
@@ -200,7 +201,7 @@ img {
   font-family: 'Ubuntu';
   background-color: #7c5cff;
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-color: none;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -209,14 +210,14 @@ img {
   border-radius: 10px;
   width: 450px;
   cursor: pointer;
-  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .buttononekash:hover {
-  border-color: rgba(255, 255, 255, 0.15);
+  background-color: #9b80ff;
+  color: white;
   transform: translateY(-4px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  color: white;
 }
 
 .footer {
