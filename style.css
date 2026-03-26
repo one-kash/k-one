@@ -230,24 +230,46 @@ img {
    padding: 3px;
   }
 
-.tagline {
-  font-family: 'Ubuntu Mono', 'Courier New', monospace;
-  font-size: 24px;
-  color: #a1a1aa;
-  letter-spacing: 2px;
+.terminal {
+  display: inline-block;
+  background: #1a1a2e;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
   margin-top: 5%;
+  min-width: 380px;
+  text-align: left;
+  overflow: hidden;
 }
 
-.prompt {
-  color: #7c5cff;
+.terminal__bar {
+  background: #16162a;
+  padding: 10px 14px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.terminal__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.terminal__dot--red { background: #ff5f57; }
+.terminal__dot--yellow { background: #febc2e; }
+.terminal__dot--green { background: #28c840; }
+
+.terminal__text {
+  font-family: 'Ubuntu Mono', 'Courier New', monospace;
+  font-size: 20px;
+  color: #a1a1aa;
+  padding: 16px 20px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.terminal__text .prompt {
+  color: #28c840;
   font-weight: 700;
-}
-
-.cursor {
-  animation: blink 1.2s step-end infinite;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
 }
