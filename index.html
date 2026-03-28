@@ -24,16 +24,16 @@
   <meta name="twitter:description" content="Author of SAP on AWS and SAP on Azure by SAP PRESS. Open-source developer and founder of OneKash Labs.">
   <meta name="twitter:image" content="https://kashyap.one/img/profile.jpg">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="/img/profile.jpg">
-  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="stylesheet" href="style.css?v=4" />
   <title>Ravi Kashyap | SAP & AI Cloud Architect</title>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
-    "dateModified": "2026-03-26",
+    "dateModified": "2026-03-28T00:00:00+00:00",
     "mainEntity": {
+      "@id": "#ravi-kashyap",
       "@type": "Person",
       "name": "Ravi Kashyap",
       "url": "https://kashyap.one",
@@ -56,42 +56,18 @@
         "url": "https://onekash.org",
         "logo": "https://onekash.org/images/logo.png"
       },
-      "author": [
-        {
-          "@type": "Book",
-          "name": "SAP on Microsoft Azure",
-          "url": "https://www.sap-press.com/sap-on-microsoft-azure_5174/",
-          "publisher": {
-            "@type": "Organization",
-            "name": "SAP PRESS"
-          }
-        },
-        {
-          "@type": "Book",
-          "name": "SAP on AWS",
-          "url": "https://www.sap-press.com/sap-on-aws_5776/",
-          "publisher": {
-            "@type": "Organization",
-            "name": "SAP PRESS"
-          }
-        },
-        {
-          "@type": "Periodical",
-          "name": "SAP, Cloud, and AI",
-          "url": "https://www.linkedin.com/newsletters/sap-cloud-and-ai-7063883542358872064/",
-          "description": "Monthly newsletter on SAP, Cloud, AI, and everything in between",
-          "publisher": {
-            "@type": "Organization",
-            "name": "LinkedIn"
-          }
-        }
-      ],
       "maintainer": [
         {
           "@type": "SoftwareSourceCode",
           "name": "iCloud Calendar MCP Server",
           "url": "https://github.com/icloud-calendar-mcp/icloud-calendar-mcp",
           "description": "MCP server for iCloud Calendar. CLI-based calendar access for AI agents."
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "AI Agent Dev Workflow",
+          "url": "https://github.com/openkash/ai-agent-dev-workflow",
+          "description": "Spec, Plan, Review, Implement, Verify; a complete AI development workflow plugin for Claude Code."
         },
         {
           "@type": "SoftwareSourceCode",
@@ -170,31 +146,54 @@
           "dateCreated": "2021-12-16"
         }
       ]
-    }
+    },
+    "hasPart": [
+      {
+        "@type": "Book",
+        "name": "SAP on Microsoft Azure",
+        "url": "https://www.sap-press.com/sap-on-microsoft-azure_5174/",
+        "author": { "@id": "#ravi-kashyap" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "SAP PRESS"
+        }
+      },
+      {
+        "@type": "Book",
+        "name": "SAP on AWS",
+        "url": "https://www.sap-press.com/sap-on-aws_5776/",
+        "author": { "@id": "#ravi-kashyap" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "SAP PRESS"
+        }
+      },
+      {
+        "@type": "Periodical",
+        "name": "SAP, Cloud, and AI",
+        "url": "https://www.linkedin.com/newsletters/sap-cloud-and-ai-7063883542358872064/",
+        "description": "Monthly newsletter on SAP, Cloud, AI, and everything in between",
+        "author": { "@id": "#ravi-kashyap" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LinkedIn"
+        }
+      }
+    ]
   }
   </script>
 </head>
 <body>
 
- <center>
+  <div class="links">
     <p class="tagline"><span class="prompt">&gt;</span> SAP &middot; AI &middot; Open Source &#9889;</p>
-      <br>
-<a href="https://linkedin.kashyap.one"><button class="button5">Linked&nbsp;<i class="fa fa-linkedin-square" style="font-size:26px"></i></button></a>
-   <br><br>
-    <a href="https://www.linkedin.com/newsletters/sap-cloud-and-ai-7063883542358872064/"><button class="button"><i class="fa fa-pencil">&nbsp;</i>SAP, Cloud, and AI Newsletter</button></a>
-    <br><br>
-    <a href="https://openkash.github.io/"><button class="buttonlabs"><i class="fa fa-code">&nbsp;</i>Open Source Projects</button></a>
-    <br><br>
-    <a href="https://www.sap-press.com/sap-on-aws_5776/"><button class="buttonbook">&#x2714; &nbsp; SAP on AWS by SAP PRESS </button></a>
-    <br><br>
-      <a href="https://www.sap-press.com/sap-on-microsoft-azure_5174/"><button class="button3"><i class="fa fa-book">&nbsp;</i>SAP on Azure by SAP PRESS</button></a>
-    <br><br>
-    <a href="https://onekash.org"><button class="buttononekash"><i class="fa fa-globe">&nbsp;</i>OneKash Labs</button></a>
-   <br><br>
- </center>
+    <a href="https://linkedin.kashyap.one" class="btn btn--linkedin">Linked&nbsp;<svg width="26" height="26" viewBox="0 0 448 512" fill="currentColor" style="vertical-align:middle"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+    <a href="https://credly.kashyap.one" class="btn btn--credly"><svg width="18" height="18" viewBox="0 0 512 512" fill="currentColor" style="vertical-align:middle"><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0z"/></svg>&nbsp;Certifications &amp; Badges</a>
+    <a href="https://www.sap-press.com/sap-on-aws_5776/" class="btn btn--book-aws">&#x2714; &nbsp; SAP on AWS by SAP PRESS</a>
+    <a href="https://www.sap-press.com/sap-on-microsoft-azure_5174/" class="btn btn--book-azure"><svg width="18" height="18" viewBox="0 0 448 512" fill="currentColor" style="vertical-align:middle"><path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V352c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>&nbsp;SAP on Azure by SAP PRESS</a>
+    <a href="https://openkash.github.io/" class="btn btn--projects"><svg width="18" height="18" viewBox="0 0 640 512" fill="currentColor" style="vertical-align:middle"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>&nbsp;Open Source &amp; AI Tools</a>
+    <a href="https://www.linkedin.com/newsletters/sap-cloud-and-ai-7063883542358872064/" class="btn btn--newsletter"><svg width="18" height="18" viewBox="0 0 512 512" fill="currentColor" style="vertical-align:middle"><path d="M362.7 19.3L314.3 67.7 444.3 197.7l48.4-48.4c25-25 25-65.5 0-90.5L453.3 19.3c-25-25-65.5-25-90.5 0zm-71 71L58.6 323.5c-10.4 10.4-18 23.3-22.2 37.4L1 481.2C-1.5 489.7 .8 498.8 7 505s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L421.7 220.3 291.7 90.3z"/></svg>&nbsp;SAP, Cloud, and AI Newsletter</a>
+  </div>
 
 </body>
-<footer>
- 
-  </footer>
 </html>
